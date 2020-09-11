@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #ffffff;
+  background-image: url('./img/macro-christmas-tree.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 2rem 0 1rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countdown-el {
+  margin: 0 2rem;
+}
+
+.big-text {
+  font-size: 4rem;
+}
